@@ -2,6 +2,10 @@ server:
   port: 9200
   servlet:
     context-path: /Service-test
+    encoding:
+      charset: UTF-8
+  tomcat:
+    uri-encoding: UTF-8
 spring:
   application:
     name: service

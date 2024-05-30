@@ -24,7 +24,27 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="6848f256-4abd-4918-a921-0be3c076a973" />
+        <option name="url" value="https://github.com/BOOK-4-1/VTT2LRC.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -45,13 +65,17 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectId" id="2hB6Pf5KDgEXpj1O81lgVPthdp6" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="2" id="Remove" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
     &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
     &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
@@ -66,10 +90,10 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;项目&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.39425287&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;a43b4a149ab5e1ea22c2baec9e075268&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
@@ -114,6 +138,7 @@
     <configuration name="VTT2LRCConverter" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="VTT2LRC" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.yu.VTT2LRCConverter" />
+      <option name="VM_PARAMETERS" value="-Dfile.encoding=UTF-8" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.yu.*" />
@@ -124,30 +149,69 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.VTT2LRCConverter" />
+      <item itemvalue="JAR Application.VTT2LRC-1.0-SNAPSHOT.jar" />
+      <item itemvalue="Spring Boot.VTT2LRCConverter" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.VTT2LRCConverter" />
-        <item itemvalue="JAR 应用程序.VTT2LRC-1.0-SNAPSHOT.jar" />
-        <item itemvalue="应用程序.VTT2LRCConverter" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
-      <changelist id="b331641d-9d8f-442e-aa29-d7826e71c17e" name="更改" comment="" />
       <created>1717055101798</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1717055101798</updated>
       <workItem from="1717055103294" duration="4717000" />
       <workItem from="1717060028868" duration="3532000" />
-      <workItem from="1717065245262" duration="1197000" />
+      <workItem from="1717065245262" duration="4966000" />
+      <workItem from="1717076026338" duration="1041000" />
+      <workItem from="1717077082741" duration="311000" />
+      <workItem from="1717077403190" duration="848000" />
+      <workItem from="1717079481413" duration="2256000" />
     </task>
+    <task id="LOCAL-00001" summary="VTT字幕文件转LRC字幕文件">
+      <created>1717072233750</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717072233750</updated>
+    </task>
+    <task id="LOCAL-00002" summary="VTT字幕文件转LRC字幕文件">
+      <created>1717080960235</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717080960235</updated>
+    </task>
+    <task id="LOCAL-00003" summary="VTT字幕文件转LRC字幕文件">
+      <created>1717083924164</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717083924164</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -161,7 +225,12 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="VTT字幕文件转LRC字幕文件" />
     <option name="LAST_COMMIT_MESSAGE" value="VTT字幕文件转LRC字幕文件" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
