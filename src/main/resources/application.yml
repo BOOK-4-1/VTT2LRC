@@ -1,0 +1,7 @@
+server:
+  port: 9200
+  servlet:
+    context-path: /Service-test
+spring:
+  application:
+    name: service
