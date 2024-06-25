@@ -30,14 +30,19 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="MIXED" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -174,6 +179,9 @@
       <workItem from="1717077082741" duration="311000" />
       <workItem from="1717077403190" duration="848000" />
       <workItem from="1717079481413" duration="2256000" />
+      <workItem from="1717123039541" duration="600000" />
+      <workItem from="1717132306016" duration="620000" />
+      <workItem from="1719321502635" duration="2749000" />
     </task>
     <task id="LOCAL-00001" summary="VTT字幕文件转LRC字幕文件">
       <created>1717072233750</created>
@@ -196,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1717083924164</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="VTT字幕文件转LRC字幕文件">
+      <created>1717085047115</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717085047115</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,7 +233,34 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/main" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
@@ -227,7 +269,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="VTT字幕文件转LRC字幕文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="VTT字幕文件转LRC字幕文件" />
+    <MESSAGE value="修复时间转换格式错误" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复时间转换格式错误" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

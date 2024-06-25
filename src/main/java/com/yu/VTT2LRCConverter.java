@@ -5,10 +5,12 @@ package com.yu;
  * @Date: 2024/5/30 15:52
  * @version: 1.0
  */
+
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.io.*;
 import java.nio.file.*;
+import java.text.DecimalFormat;
 import java.util.regex.*;
 
 @SpringBootApplication
@@ -30,12 +32,13 @@ public class VTT2LRCConverter {
 
                             StringBuilder lrcContent = new StringBuilder();
                             while (matcher.find()) {
-                                String startTime = matcher.group(1);
+                                String startTime = convertTime(matcher.group(1));
+//                                String startTime = matcher.group(1);
                                 String endTime = matcher.group(2);
                                 String text = matcher.group(3).trim();
-
+                                System.out.println(startTime);
                                 // 只取起始时间作为LRC的时间戳
-                                String lrcTimestamp = "[" + startTime.replace(":", ".") + "]";
+                                String lrcTimestamp = "[" + startTime + "]";
                                 lrcContent.append(lrcTimestamp).append(text).append("\n");
                             }
 
@@ -51,5 +54,28 @@ public class VTT2LRCConverter {
         } catch (IOException e) {
             System.err.println("IO error: " + e.getMessage());
         }
+
+    }
+
+    public static String convertTime(String inputTime) {
+        // 分割输入时间
+        String[] timeParts = inputTime.split(":");
+        double hours = Double.parseDouble(timeParts[0]);
+        double minutes = Double.parseDouble(timeParts[1]);
+        double seconds = Double.parseDouble(timeParts[2]);
+
+        // 计算总秒数
+        double totalSeconds = (hours * 3600) + (minutes * 60) + seconds;
+
+        // 计算新的分钟数和秒数
+        int newMinutes = (int) Math.floor(totalSeconds / 60);
+        double newSeconds = totalSeconds % 60;
+
+        // 格式化输出时间
+        DecimalFormat df = new DecimalFormat("00.00");
+        String formattedNewSeconds = df.format(newSeconds);
+
+        return String.format("%02d:%s", newMinutes, formattedNewSeconds);
+
     }
 }
